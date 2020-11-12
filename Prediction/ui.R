@@ -67,7 +67,9 @@ shinyUI(fluidPage(
                                    parameters estimation error and the individual error around the 
                                    regression line."),
                                  p(strong("Confidence level:"),"The confidence level determines the
-                                   width of the confidence interval."))
+                                   width of the confidence interval."),
+                                 p("You can find the ui.R and server.R in following link:"),
+                                 a(href="https://github.com/Lluis73/Data_product_project", "link to Github"))
                         
             )
             
