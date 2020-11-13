@@ -68,6 +68,11 @@ shinyUI(fluidPage(
                                    regression line."),
                                  p(strong("Confidence level:"),"The confidence level determines the
                                    width of the confidence interval."),
+                                 h3("Output:"),
+                                 p("The predicted value corresponding to the horsepower and type
+                                   of transmission is given with its confidence interval. The
+                                   predicted value and its confidence interval are plotted in
+                                   the graph."),
                                  p("You can find the ui.R and server.R in following link:"),
                                  a(href="https://github.com/Lluis73/Data_product_project", "link to Github"))
                         
