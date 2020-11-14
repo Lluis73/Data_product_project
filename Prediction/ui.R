@@ -74,7 +74,7 @@ shinyUI(fluidPage(
                                    predicted value and its confidence interval are plotted in
                                    the graph."),
                                  p("You can find the ui.R and server.R in following link:"),
-                                 a(href="https://github.com/Lluis73/Data_product_project", "link to Github"))
+                                 a(href="http://github.com/Lluis73/Data_product_project", "link to Github"))
                         
             )
             
